@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic page settings -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+
+  <!-- SEO title and description -->
+  <title>Deepak CSE | Aspiring Full-Stack Developer</title>
+
+  <meta
+    name="description"
+    content="Visit Deepak CSE's official developer profile. Explore his GitHub projects, Core Java, HTML, Git, APIs, security, frontend, backend and database learning journey."
+  >
+
+  <meta name="author" content="Deepak CSE">
+  <meta name="robots" content="index, follow">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <!-- Canonical URL: this exact GitHub Pages address -->
+  <link
+    rel="canonical"
+    href="https://deepakcse896.github.io/deepakcse896/"
+  >
+
+  <!-- Open Graph: previews when sharing the website -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Deepak CSE | Developer Profile">
+  <meta
+    property="og:description"
+    content="Explore Deepak CSE's developer profile, technical interests and GitHub projects."
+  >
+  <meta
+    property="og:url"
+    content="https://deepakcse896.github.io/deepakcse896/"
+  >
+  <meta property="og:site_name" content="Deepak CSE">
+
+  <!-- Social sharing preview for X/Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Deepak CSE | Developer Profile">
+  <meta
+    name="twitter:description"
+    content="Aspiring Full-Stack Developer exploring Java, web development, APIs and databases."
+  >
+
+  <!-- Structured data for search engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "name": "Deepak CSE - Developer Profile",
+    "url": "https://deepakcse896.github.io/deepakcse896/",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Deepak CSE",
+      "url": "https://github.com/deepakcse896",
+      "sameAs": [
+        "https://github.com/deepakcse896"
+      ],
+      "description": "Aspiring Full-Stack Developer learning Core Java, HTML, Git, GitHub, APIs, security, frontend, backend and databases."
+    }
+  }
+  </script>
+
+  <!-- Browser tab icon -->
+  <link
+    rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b1020'/%3E%3Ctext x='50' y='65' font-size='43' text-anchor='middle' fill='%2360a5fa' font-family='Arial'%3EDC%3C/text%3E%3C/svg%3E"
+  >
+
+  <!-- Page styling -->
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #0b1020;
+      --surface: #121a2d;
+      --text: #f3f6ff;
+      --muted: #aab5cb;
+      --accent: #78a9ff;
+      --border: #283650;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: min(100% - 32px, 960px);
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 18px 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .brand {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--text);
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      font-size: 0.92rem;
+    }
+
+    .hero {
+      padding: 82px 0 60px;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+
+    h1 {
+      font-size: clamp(2.5rem, 7vw, 4.6rem);
+      line-height: 1.12;
+      letter-spacing: -0.04em;
+      margin: 12px 0;
+    }
+
+    h2 {
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      line-height: 1.25;
+    }
+
+    .subtitle {
+      color: var(--accent);
+      font-size: clamp(1.15rem, 3vw, 1.5rem);
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+
+    .intro {
+      max-width: 680px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 11px 18px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      font-weight: 700;
+    }
+
+    .button-primary {
+      color: #07101f;
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+
+    section {
+      padding: 36px 0;
+    }
+
+    .section-description {
+      color: var(--muted);
+      max-width: 700px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 22px;
+    }
+
+    .card {
+      padding: 22px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      border-radius: 14px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .card p {
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 18px;
+    }
+
+    .tag {
+      border: 1px solid var(--border);
+      padding: 5px 11px;
+      border-radius: 999px;
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+
+    .contact {
+      border: 1px solid var(--border);
+      background: var(--surface);
+      padding: 26px;
+      border-radius: 14px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 24px 0;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        padding-top: 55px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .nav-links {
+        gap: 12px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="container" aria-label="Main navigation">
+      <a class="brand" href="#home">Deepak CSE</a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Main profile introduction -->
+    <section class="hero container" id="home">
+      <p class="eyebrow">Developer Profile</p>
+
+      <h1>Deepak CSE</h1>
+
+      <p class="subtitle">Aspiring Full-Stack Developer</p>
+
+      <p class="intro">
+        Welcome to my personal developer website. I am learning
+        programming and web development, exploring frontend,
+        backend, APIs, databases and security while building my
+        technical skills step by step.
+      </p>
+
+      <div class="actions">
+        <a
+          class="button button-primary"
+          href="https://github.com/deepakcse896"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Visit My GitHub
+        </a>
+
+        <a class="button" href="#projects">Explore My Work</a>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="container" id="about">
+      <h2>About Deepak CSE</h2>
+
+      <p class="section-description">
+        I am an aspiring developer interested in understanding how
+        software works, from writing code to building web applications.
+        My current learning journey includes Java fundamentals,
+        HTML, version control and modern application development.
+      </p>
+
+      <p class="section-description">
+        This website is my personal profile page, where visitors
+        can learn about my technical interests and access my
+        public GitHub repositories.
+      </p>
+    </section>
+
+    <!-- Skills and interests -->
+    <section class="container" id="skills">
+      <h2>Technical Skills and Interests</h2>
+
+      <p class="section-description">
+        Technologies and areas I am learning and exploring.
+      </p>
+
+      <div class="tags">
+        <span class="tag">Core Java</span>
+        <span class="tag">HTML</span>
+        <span class="tag">Git</span>
+        <span class="tag">GitHub</span>
+        <span class="tag">Frontend Development</span>
+        <span class="tag">Backend Development</span>
+        <span class="tag">APIs</span>
+        <span class="tag">Databases</span>
+        <span class="tag">Security</span>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="container" id="projects">
+      <h2>Projects and GitHub</h2>
+
+      <p class="section-description">
+        Visit my GitHub profile to explore my public repositories,
+        coding practice and future projects.
+      </p>
+
+      <div class="grid">
+        <article class="card">
+          <h3>GitHub Profile</h3>
+          <p>
+            My public developer profile, repositories and coding work.
+          </p>
+          <p>
+            <a
+              href="https://github.com/deepakcse896"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View GitHub Profile →
+            </a>
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Developer Website</h3>
+          <p>
+            This personal website introduces my learning journey
+            and links visitors to my developer profile.
+          </p>
+          <p><a href="#home">Back to Top ↑</a></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact and profile links -->
+    <section class="container" id="contact">
+      <div class="contact">
+        <h2>Find Me Online</h2>
+
+        <p class="section-description">
+          Explore my profile and follow my development journey.
+        </p>
+
+        <p>
+          GitHub:
+          <a
+            href="https://github.com/deepakcse896"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github.com/deepakcse896
+          </a>
+        </p>
+
+        <!-- Add your real LinkedIn URL here when available. -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year">2026</span> Deepak CSE.</p>
+      <p>Personal developer profile and project links.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
