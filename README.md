@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi, I'm Deepak 👋
 
-<!--
-**deepakcse896/deepakcse896** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Aspiring Full-Stack Developer
 
-Here are some ideas to get you started:
+I'm learning software development and building my programming skills step by step.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## About Me
+- Learning Core Java and HTML
+- Practicing Git and GitHub
+- Exploring frontend and backend development
+- Learning APIs, databases, and security
+
+## Skills I'm Learning
+- Java
+- HTML
+- Git & GitHub
+
+## My Goals
+- Build practical coding projects
+- Improve problem-solving skills
+- Develop full-stack applications
+
+## Connect With Me
+Github : (https://github.com/deepakcse896)
